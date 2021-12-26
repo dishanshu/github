@@ -1,0 +1,84 @@
+#git Version
+git --version
+
+#Check User name and email
+git config user.email 
+git config user.name
+
+# config user name
+git config --global user.name "dishanshu"
+git config --global user.email "dishanshujagtap@gmail.com"
+
+#Initialize repo
+git init
+
+#display 
+ls -a
+
+#status
+git status
+
+#Track/add file in staging area
+git add filename
+git add .
+
+#commit
+git commit -m "initial commit"
+
+#log
+git log
+
+# Clear terminal 
+cmd + k
+
+# go back to previous commit
+#cpy hash code
+git log 
+
+git checkout <commit hash code/branch name>
+
+#branch
+git branch
+
+# go back to master
+git checkout master
+
+#make branch
+git branch dev
+git branch
+git checkout dev 
+
+git checkout -b dishanshu/feature name
+
+#merge branch(merge dev in master - checkout master and use below command)
+git merge dishanshu/feature name
+
+#make file
+touch .gitignore
+
+#set origin for fetch and push in github
+#check remote is connected on not
+git remote -v
+git branch -M master
+pit push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
